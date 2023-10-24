@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+}
+header h1 {
+  font-size: 40px;
+  color: white;
+}
+
+main .container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 2rem;
+  gap: 1rem;
+}
+main .container .titulo h3 {
+  font-size: 30px;
+}
+main .container .eleccion {
+  display: flex;
+  gap: 3rem;
+}
+main .container .eleccion button {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  background-color: black;
+  border: none;
+  border-radius: none;
+  transition: all 400ms ease-in-out;
+}
+main .container .eleccion button p {
+  font-size: 15px;
+  color: white;
+}
+main .container .eleccion button:hover {
+  background-color: rgba(0, 0, 0, 0.599);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: all 200ms ease-in-out;
+}
+main .container .eleccion .bxs-diamond {
+  color: gray;
+}
+main .container .eleccion .bxs-paper-plane {
+  color: white;
+}
+main .container .eleccion .bx-cut {
+  color: paleturquoise;
+}
+main .container .respuesta {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  border-radius: 1rem;
+  background-color: black;
+}
+main .container .respuesta .usuario {
+  width: 250px;
+  height: 60px;
+  font-size: 25px;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  background-color: white;
+}
+main .container .respuesta .usuario span {
+  font-weight: bold;
+}
+main .container .respuesta .pc {
+  width: 370px;
+  height: 60px;
+  font-size: 25px;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  background-color: white;
+}
+main .container .respuesta .pc span {
+  font-weight: bold;
+}
+main .container .respuesta .resultado {
+  width: 250px;
+  height: 60px;
+  font-size: 25px;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+}
+main .container .respuesta .resultado .ganar {
+  color: green;
+}
+main .container .respuesta .resultado .perder {
+  color: red;
+}
+main .container .respuesta .resultado .empate {
+  color: gray;
+}
+
+footer {
+  width: 100vw;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 1rem 0;
+  position: relative;
+  top: 9rem;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+}
+footer p .bxs-game {
+  color: yellow;
+  font-size: 20px;
+}/*# sourceMappingURL=styles.css.map */
